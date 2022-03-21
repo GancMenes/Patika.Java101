@@ -2,6 +2,10 @@ package SayilariSiralama;
 
 import java.util.Scanner;
 
+/**
+ * Girilen 3 sayıyı sırala
+ */
+
 public class Main {
     public static void main(String[] args) {
         int x ,y ,z ;
