@@ -9,7 +9,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int x ,y ,z ;
-        int enBuyuk;
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter x");
@@ -19,28 +18,25 @@ public class Main {
         System.out.println("Enter z");
         z = scanner.nextInt();
 
-        enBuyuk = z;
-
         if (x > y && x > z) {
             if (y > z) {
-                System.out.println("x > y > z");
+                System.out.print(x + ">" + y + ">" + z);
             } else {
-                System.out.println("x > z > y");
+                System.out.print(x + ">" + z + ">" + y);
             }
 
         }else if( y > x && y > z){
-                if (x > z){
-                    System.out.println("y > x > z");
-                }else {
-                    System.out.println("y > z > x");
-                }
+            if (x > z) {
+                System.out.print(y + ">" + x + ">" + z);
+            } else {
+                System.out.print(y + ">" + z + ">" + x);
+            }
             }
         else {
-            if (x < y) {
-                System.out.println("z > y > x");
-                }
-            else {
-                System.out.println("z > x > y");
+            if (x > y) {
+                System.out.print(z + ">" + x + ">" + y);
+            } else {
+                System.out.print(z + ">" + y + ">" + x);
             }
         }
     }
