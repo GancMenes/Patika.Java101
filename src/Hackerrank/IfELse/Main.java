@@ -18,9 +18,11 @@ public class Main {
         if (n % 2 == 1 || ((n >= 6 && n <= 20))) {
             System.out.println("Weird");
             }
-        else if ((n < 5 && 2 < n) )
+        else if ((n < 5 && 2 < n) || 20 < n )
         {
             System.out.println("Not Weird");
+        }else {
+            System.out.println("number invalid");
         }
     }
 }
