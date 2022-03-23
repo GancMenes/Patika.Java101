@@ -2,6 +2,9 @@ package sayininKuvvetleri;
 
 import java.util.Scanner;
 
+/**
+ * Girilen sayıya kadar 4 ve 5 li kuvvetlerini bulma
+ */
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
