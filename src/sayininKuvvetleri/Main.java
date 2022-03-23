@@ -9,11 +9,12 @@ public class Main {
         System.out.print("Enter your number : ");
         int number = scanner.nextInt();
 
-
+        System.out.println("Dördün kuvvetleri :");
         for (int i = 1; i <= number ; i*=4){
             System.out.println(i);
         }
 
+        System.out.println("Beşin kuvvetleri :");
         for (int i = 1; i <= number ; i*=5){
             System.out.println(i);
         }
