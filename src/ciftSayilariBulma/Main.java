@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int toplam = 0, tane =0;
+        int toplam = 0,i;
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Sayı girin : ");
@@ -14,12 +14,12 @@ public class Main {
 
         for (int i = 1; i <= sayi ; i++){
             if ( (i % 3 == 0) && (i % 4 == 0)){
+                System.out.println(i);
                 toplam += i;
-                tane ++;
             }
         }
 
-        int ortalama = toplam / tane ;
+        int ortalama = toplam / i ;
         System.out.println("Ortalama : " + ortalama);
 
     }
