@@ -1,4 +1,4 @@
-package tekSayilrainToplaminiBulma;
+package tekSayigirileneKadar;
 
 import java.util.Scanner;
 
