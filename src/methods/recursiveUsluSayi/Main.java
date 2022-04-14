@@ -1,4 +1,4 @@
-package metotlar.recursiveUsluSayi;
+package methods.recursiveUsluSayi;
 
 import java.util.Scanner;
 
