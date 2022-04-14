@@ -94,6 +94,9 @@ public class Main {
 
                 case 4:
                     divide(a,b);
+                    if (divide(a, b) == 0) {
+                        System.out.println("İkinci sayı 0'dan farklı olmalıdır.");
+                    }
                     break;
 
                 case 5:
