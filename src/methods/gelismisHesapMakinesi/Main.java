@@ -1,4 +1,4 @@
-package gelismisHesapMakinesi;
+package methods.gelismisHesapMakinesi;
 
 import java.util.Scanner;
 

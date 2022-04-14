@@ -1,4 +1,4 @@
-package KosulluIfadeler.kjg.KullaniciGirisi;
+package kosulluIfadelerk.KullaniciGirisi;
 
 import java.util.Scanner;
 

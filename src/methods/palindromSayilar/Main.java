@@ -1,4 +1,4 @@
-package palindromSayilar;
+package methods.palindromSayilar;
 
 public class Main {
 
