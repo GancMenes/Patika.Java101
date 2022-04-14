@@ -1,4 +1,4 @@
-package atmProjesi;
+package donguler.atmProjesi;
 
 import java.util.Scanner;
 

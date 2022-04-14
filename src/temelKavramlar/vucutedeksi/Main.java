@@ -1,4 +1,4 @@
-package vucutedeksi;
+package temelKavramlar.vucutedeksi;
 
 import java.util.Scanner;
 

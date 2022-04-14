@@ -1,4 +1,4 @@
-package HavaSicakliginaGoreEtkinlik;
+package kosulluIfadelerk.havaSicakliginaGoreEtkinlik;
 
 import java.util.Scanner;
 

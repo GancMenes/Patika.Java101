@@ -1,4 +1,4 @@
-package ucakbileti;
+package kosulluIfadelerk.ucakbileti;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package HesapMakinesi;
+package kosulluIfadelerk.hesapMakinesi;
 
 import java.util.Scanner;
 

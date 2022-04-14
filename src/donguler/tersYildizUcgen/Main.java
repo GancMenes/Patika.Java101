@@ -1,4 +1,4 @@
-package tersYildizUcgen;
+package donguler.tersYildizUcgen;
 
 import java.util.Scanner;
 

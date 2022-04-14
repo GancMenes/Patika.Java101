@@ -1,4 +1,4 @@
-package harmonicSayilar;
+package donguler.harmonicSayilar;
 
 import java.util.Scanner;
 

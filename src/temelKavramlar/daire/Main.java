@@ -1,4 +1,4 @@
-package daire;
+package temelKavramlar.daire;
 
 import java.util.Scanner;
 

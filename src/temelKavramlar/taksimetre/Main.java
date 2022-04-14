@@ -1,4 +1,4 @@
-package taksimetre;
+package temelKavramlar.taksimetre;
 
 import java.util.Scanner;
 

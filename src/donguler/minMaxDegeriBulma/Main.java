@@ -1,4 +1,4 @@
-package minMaxDegeriBulma;
+package donguler.minMaxDegeriBulma;
 
 import java.util.Scanner;
 

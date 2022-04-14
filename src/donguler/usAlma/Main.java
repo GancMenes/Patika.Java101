@@ -1,4 +1,4 @@
-package usAlma;
+package donguler.usAlma;
 
 import java.util.Scanner;
 

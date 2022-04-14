@@ -1,4 +1,4 @@
-package Manav;
+package temelKavramlar.manav;
 
 import java.util.Scanner;
 

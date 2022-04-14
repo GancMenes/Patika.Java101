@@ -1,4 +1,4 @@
-package ciftSayilariBulma;
+package donguler.ciftSayilariBulma;
 
 import java.util.Scanner;
 

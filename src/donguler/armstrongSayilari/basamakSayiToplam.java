@@ -1,4 +1,4 @@
-package armstrongSayilari;
+package donguler.armstrongSayilari;
 
 import java.util.Scanner;
 

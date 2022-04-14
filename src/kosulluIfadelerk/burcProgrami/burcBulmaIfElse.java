@@ -1,4 +1,4 @@
-package burcProgrami;
+package kosulluIfadelerk.burcProgrami;
 
 import java.util.Scanner;
 

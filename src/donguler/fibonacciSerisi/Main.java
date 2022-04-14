@@ -1,4 +1,4 @@
-package fibonacciSerisi;
+package donguler.fibonacciSerisi;
 
 import java.util.Scanner;
 

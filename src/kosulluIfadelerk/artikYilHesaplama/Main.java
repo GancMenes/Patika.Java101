@@ -1,4 +1,4 @@
-package artikYilHesaplama;
+package kosulluIfadelerk.artikYilHesaplama;
 
 import java.util.Scanner;
 

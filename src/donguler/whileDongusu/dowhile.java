@@ -1,4 +1,4 @@
-package whileDongusu;
+package donguler.whileDongusu;
 
 import java.util.Scanner;
 

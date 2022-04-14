@@ -1,4 +1,4 @@
-package sayininKuvvetleri;
+package donguler.sayininKuvvetleri;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package cinZodyagi;
+package kosulluIfadelerk.cinZodyagi;
 
 import java.util.Scanner;
 

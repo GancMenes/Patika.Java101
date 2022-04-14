@@ -1,4 +1,4 @@
-package ebobEkokProgrami;
+package donguler.ebobEkokProgrami;
 
 import java.util.Scanner;
 

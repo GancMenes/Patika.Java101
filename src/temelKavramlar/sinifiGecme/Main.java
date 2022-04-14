@@ -1,4 +1,4 @@
-package SinifiGecme;
+package temelKavramlar.sinifiGecme;
 
 import java.util.Scanner;
 

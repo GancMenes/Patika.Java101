@@ -1,4 +1,4 @@
-package whileDongusu;
+package donguler.whileDongusu;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package mukemmelSayi;
+package donguler.mukemmelSayi;
 
 import java.util.Scanner;
 

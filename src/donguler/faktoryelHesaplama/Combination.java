@@ -1,4 +1,4 @@
-package faktoryelHesaplama;
+package donguler.faktoryelHesaplama;
 
 import java.util.Scanner;
 

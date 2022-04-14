@@ -1,4 +1,4 @@
-package hipotenus;
+package temelKavramlar.hipotenus;
 
 import java.util.Scanner;
 

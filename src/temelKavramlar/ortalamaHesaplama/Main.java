@@ -1,4 +1,4 @@
-package patika.dev.ortalamaHesaplama;
+package temelKavramlar.ortalamaHesaplama;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package SayilariSiralama;
+package kosulluIfadelerk.sayilariSiralama;
 
 import java.util.Scanner;
 

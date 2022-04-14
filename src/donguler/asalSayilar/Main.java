@@ -1,4 +1,4 @@
-package asalSayilar;
+package donguler.asalSayilar;
 
 import java.util.Scanner;
 

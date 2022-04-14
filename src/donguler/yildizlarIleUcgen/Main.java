@@ -1,4 +1,4 @@
-package yildizlarIleUcgen;
+package donguler.yildizlarIleUcgen;
 
 import java.util.Scanner;
 
