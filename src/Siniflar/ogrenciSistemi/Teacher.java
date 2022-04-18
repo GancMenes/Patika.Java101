@@ -1,4 +1,4 @@
-package Siniflar;
+package Siniflar.ogrenciSistemi;
 
 public class Teacher {
     String name;
