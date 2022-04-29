@@ -1,4 +1,4 @@
-package Siniflar.boksMaci;
+package siniflar.boksMaci;
 
 public class Main {
     public static void main(String[] args) {

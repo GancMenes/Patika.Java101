@@ -1,4 +1,4 @@
-package Siniflar.ogrenciSistemi;
+package siniflar.ogrenciSistemi;
 
 public class Teacher {
     String name;

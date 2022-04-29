@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
-        String kelime = "qewqwrq";
+        int[] scores = new int[10];
+        scores = new int[3];
+        scores = new int[]{215, 234, 218, 189, 221, 290};
 
-        String ters = "";
-
-        for (int i = kelime.length(); i <= kelime.length(); i--){
-            ters = ters +i;
+        for (int score : scores) {
+            System.out.print(score + "  ");
         }
-        System.out.println(ters);
     }
 }

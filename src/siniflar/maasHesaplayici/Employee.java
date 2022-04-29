@@ -1,4 +1,4 @@
-package Siniflar.maasHesaplayici;
+package siniflar.maasHesaplayici;
 
 public class Employee {
     String name;

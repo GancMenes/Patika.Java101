@@ -1,4 +1,4 @@
-package Siniflar.maasHesaplayici;
+package siniflar.maasHesaplayici;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Siniflar.ogrenciSistemi;
+package siniflar.ogrenciSistemi;
 
 public class Course {
     Teacher courseTeacher;
