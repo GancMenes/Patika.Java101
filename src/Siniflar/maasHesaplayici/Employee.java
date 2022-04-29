@@ -22,9 +22,9 @@ public class Employee {
         if ( this.salary < 1000)  {
             tax = 0;
         } else if ( this.salary > 1000) {
-            tax = this.salary * 0.3;
+            tax = this.salary * 0.03;
         }
-        return tax;
+        return this.tax;
     }
 
     public double bonus() {
@@ -39,21 +39,18 @@ public class Employee {
         double raise;
 
         if ( workYears < 10) {
-            raise = 0.05;
-            raise = this.salary * raise;
+            raise = this.salary * 0.05;
         } else if( workYears > 9 && workYears < 20) {
-            raise = 0.1;
-            raise = this.salary * raise;
+            raise = this.salary * 0.1;
         }else {
-            raise = 0.15;
-            raise = this.salary * raise;
+            raise = this.salary * 0.15;
         }
-        return raise;
+        return this.raise = raise;
     }
 
     public double totalSalary() {
         newSalary = this.salary+
-                this.raise + this.bonus + this.tax;
+                this.raise + this.bonus - this.tax;
         return newSalary;
     }
 
