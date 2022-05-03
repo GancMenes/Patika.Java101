@@ -28,6 +28,8 @@ public class Main {
 
         int ortalama = (mat+fizik+kimya+turkce+tarih+muzık)/6;
 
+        System.out.println(ortalama);
         String sonuc = ortalama < 60 ? "Kaldı" : "Gecti";
+        System.out.println(sonuc);
     }
 }
