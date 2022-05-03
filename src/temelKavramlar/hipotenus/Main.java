@@ -6,16 +6,17 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int x=0,y=0;
-        double z;
+        System.out.println("Ilk kenarı girin");
+        int a = scanner.nextInt();
+        System.out.println("Ikıncı kenarı girin");
+        int b = scanner.nextInt();
+        System.out.println("Ucuncu kenarı girin");
+        int c = scanner.nextInt();
 
-        System.out.println("Enter the side x");
-        x = scanner.nextInt();
-        System.out.println("Enter the side y");
-        y = scanner.nextInt();
+        int u = (a+b+c)/2;
+        int cevre = 2*u;
 
-        z = (int) Math.sqrt((x*x) + (y*y));
-
-        System.out.println("Hipotenus is : " + z);
+        int alan = u*(u-a)*(u-b)*(u-c);
+        System.out.println(alan);
     }
 }
