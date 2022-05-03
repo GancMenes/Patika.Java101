@@ -1,18 +1,38 @@
 package diziler;
 
-import java.util.Arrays;
-
 public class TekrarSayilar {
 
+    static boolean isFind(int[] arr, int value) {
+        for (int i : arr) {
+            if (i == value) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     public static void main(String[] args) {
-        int[]listNum= {2,4,4,6,6,7,9,12,12,14,18,22,24,8,84,88};
-        for(int a=0;a <listNum.length; a++){
-            for(int b=a;b<listNum.length;b++){
-                if(listNum[a]==listNum[b] && a!=b){
-                    if(listNum[a]%2==0){
-                        System.out.println("Repeating even numbers : "+listNum[a]);
+        int[] list = {8,8,3,7,3,4,4,3,2,9,10,21,1,33,9,1};
+        int[] duplicate = new int[list.length];
+        int startIndex = 0;
+
+        for (int i = 0; i < list.length; i++) {
+            for (int j = 0; j < list.length; j++) {
+                if ((i != j) && (list[i] == list[j])) {
+                    if (list[i] % 2 == 0){
+                        if (!isFind(duplicate, list[i])) {
+                            duplicate[startIndex++] = list[i];
+                        }
                     }
-                }
+                }break;
+
+            }
+        }
+
+        for (int value : duplicate) {
+            if (value != 0 ) {
+                System.out.println(value);
             }
         }
     }
