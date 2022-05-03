@@ -1,39 +1,26 @@
 package diziler;
 
+import java.util.Arrays;
+
 public class TekrarSayilar {
 
-    public static boolean isFind(int[] arr, int value) {
-        for (int i : arr) {
-            if (i == value) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
     public static void main(String[] args) {
-        int[] list = {3,8,8,3,7,3,4,4,3,2,9,10,21,1,33,9,1};
-        int[] duplicate = new int[list.length];
-        int startIndex = 0;
-
-        for (int i = 0; i < list.length; i++) {
-            for (int j = 0; j < list.length; j++) {
-                if ((i != j) && (list[i] == list[j])) {
-                    if (list[i] % 2 == 0){
-                        if (!isFind(duplicate, list[i])) {
-                            duplicate[startIndex++] = list[i];
-                        }
-                    }
-                }break;
-
+        int[] list = {10,20,20,10,10,20,5,20};
+        System.out.println("Dizi : "+Arrays.toString(list));
+        Arrays.sort(list);
+        System.out.println("Tekrar Sayıları");
+        int value = list[0], count=1,index=1;
+        for (int j = 1 ; j< list.length; j++){
+            for (int i = index; i < list.length; i++) {
+                if (value == list[i]) {
+                    count++;
+                    if (index<list.length)index = i+1;
+                }
             }
-        }
-
-        for (int value : duplicate) {
-            if (value != 0 ) {
-                System.out.println(value);
-            }
+            System.out.println(value +" sayısı " +count+" kere tekrar edildi.");
+            if (index == list.length)break;
+            value = list[index];
+            count=0;
         }
     }
 }
