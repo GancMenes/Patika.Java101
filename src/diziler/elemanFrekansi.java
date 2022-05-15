@@ -10,7 +10,7 @@ public class elemanFrekansi {
         Arrays.sort(numbers);
 
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i]!=a) {
+            if (numbers[i]!=a && numbers[i]>0) {
                 for(int j = 0; j < numbers.length; j++) {
 
                     if ((i != j) && numbers[j] == numbers[i]) {
